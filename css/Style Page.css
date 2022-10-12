@@ -1,0 +1,219 @@
+@charset "utf-8";
+body header {
+    width: 0px;
+    background-color: #042940;
+    height: 150px;
+    color: #FFFFFF;
+}
+body header, body  nav , body main, body footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body nav {
+    height: 60px;
+    background-color: #005C53;
+    color: #FFFFFF;
+    padding: 0px;
+}
+body main {
+    background-color: #9FC131;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body footer {
+    background-color: #DBF227;
+    height: 50px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Tabla1  tr th  {
+    background-color: #9FC131;
+    color: #DBF227;
+}
+body main section {
+}
+.Tabla1 tbody tr td {
+    color: #005C53;
+    background-color: #DBF227;
+}
+.Tabla1  tfoot   {
+    background-color: #9FC131;
+    color: #042940;
+}
+
+
+
+
+body header h1 {
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+body footer h6 {
+    text-align: center;
+    height: 25px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    font-size: 20px;
+}
+body main section {
+    width: 800px;
+    height: auto;
+    background-color: #D6D58E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+section p a:link    , section p a :visited{
+    color: #005C53;
+    font-weight: bold;
+    text-decoration: none;
+}
+section p a:hover {
+    color: #9FC131;
+    font-size: 18px;
+    text-decoration: underline;
+}
+#img_float_der {
+}
+#img_float_izq {
+}
+#img_fondo1 {
+    background-image: url(../media/img.jpg);
+}
+.yo_1 {
+}
+
+
+
+
+
+
+
+
+@media screen{
+main section h2 {
+    padding-bottom: 30px;
+}
+nav ul li , section ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: medium;
+    margin-top: 20px;
+}
+.listaen     {
+    background-color: #DBF227;
+    text-align: center;
+    height: 80px;
+    width: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+    border: 3px solid #9FC131;
+}
+
+
+
+main section p {
+    padding-bottom: 20px;
+}
+
+
+
+
+}
+#marcador1 {
+}
+#marcador2 {
+}
+#marcador3 {
+}
+#marcador4 {
+}
+
+@media screen{
+#menu_interno li a:link   , #menu_interno lia:active, #menu_interno lia:visited{
+    color: #005C53;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#menu_interno li a:hover {
+    color: #FFFFFF;
+}
+
+
+}
+
+@media screen{
+}
+
+@media screen{
+nav ul li {
+    background-color: #9FC131;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #DBF227;
+}
+#menu_principal li a:link  , #menu_principal li a:active, #menu_principal li a:visited{
+    color: #042940;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+}
+.Tabla1 {
+    border: 3px solid #005C53;
+}
+.listaen {
+}
+.lis {
+}
+
+.box_impar {
+    background-color: #DBF227;
+}
+#box_unica {
+    background-color: #DBF227;
+}
+#lista1 {
+    list-style-type: lower-alpha;
+}
+#list_2 {
+    list-style-image: url(carara-16.png);
+	
+	
+}
+#img_float_der {
+    float: left;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+#img_float_izq {
+    float: right;
+    padding-left: 10px;
+}
+	
+#img_fondo1 {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 63%;
+}
+.yo_1 {
+	 float: left;
+    padding-right: 10px;
+    padding-left: 0px;
+}
